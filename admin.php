@@ -8,7 +8,7 @@ if(!isset($_SESSION["username"])) {
 }
 
 if($_SESSION["type"]!="admin") {
-  header("location:index.php");
+  header("location:admin-update.php");
 }
 
 include 'config.php';

@@ -39,7 +39,7 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
             echo '<li><a href="logout.php">Log Out</a></li>';
           }
           else{
-            echo '<li><a href="login.php">User Login</a></li>';
+            echo '<li><a href="loginU.php">User Login</a></li>';
             echo '<li><a href="loginV.php">Vendor Login</a></li>';
             echo '<li><a href="admin.php">Admin Login</a></li>';            
             echo '<li><a href="register.php">Register</a></li>';
@@ -55,7 +55,7 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
     <div class="row" style="margin-top:30px;">
       <div class="small-12">
 
-        <p>Wanna get in touch. Email us at <a href="mailto:support@techbarrack.com">support@techbarrack.com</a></p>
+        <p>Wanna get in touch. Email us at <a href="mailto:support@techbarrack.com">dessports_store@gmail.com</a></p>
 
         <footer>
            <p style="text-align:center; font-size:0.8em;">&copy; DES SPORTS Shopping Store. All Rights Reserved.</p>

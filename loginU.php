@@ -44,7 +44,9 @@ if(isset($_SESSION["username"])){
             echo '<li><a href="logout.php">Log Out</a></li>';
           }
           else{
-            echo '<li class="active"><a href="login.php">Log In</a></li>';            
+            echo '<li class="active"><a href="loginU.php">User Login</a></li>';  
+            echo '<li><a href="loginV.php">Vendor Login</a></li>';
+            echo '<li><a href="admin.php">Admin Login</a></li>';           
             echo '<li><a href="register.php">Register</a></li>';
           }
           ?>
@@ -65,7 +67,7 @@ if(isset($_SESSION["username"])){
               <label for="right-label" class="right inline">Email</label>
             </div>
             <div class="small-8 columns">
-              <input type="email" id="right-label" placeholder="nayantronix@gmail.com" name="username">
+              <input type="email" id="right-label" placeholder="enter email" name="username">
             </div>
           </div>
           <div class="row">

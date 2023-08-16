@@ -39,7 +39,7 @@ include 'config.php';
             echo '<li><a href="logout.php">Log Out</a></li>';
           }
           else{
-            echo '<li><a href="login.php">User Login</a></li>';
+            echo '<li><a href="loginU.php">User Login</a></li>';
             echo '<li><a href="loginV.php">Vendor Login</a></li>';
             echo '<li><a href="admin.php">Admin Login</a></li>';            
             echo '<li><a href="register.php">Register</a></li>';

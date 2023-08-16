@@ -30,7 +30,7 @@ include("includes/db.php");
 			
 			<div id="form">
 				<form method="get" action="results.php" enctype="multipart/form-data">
-					<input type="text" name="user_query" / >
+					<input type="text" name="user_query" />
 					<input type="submit" name="search" value="Search" />
 				</form>
 			</div>
